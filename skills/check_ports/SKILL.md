@@ -1,0 +1,1 @@
+Check ports: Check listening TCP and UDP ports and identify active running services. [cmd: `python check_ports.py --tcp`]

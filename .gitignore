@@ -1,0 +1,25 @@
+# Virtual environment (5.6GB)
+venv/
+.venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binaries (>100MB causes GitHub push to fail)
+pentestcode
+
+# Secrets and private keys
+server.key
+*.key
+
+# Local databases
+*.db
+chat_history.db
+history.db
+
+# Caches
+.cache/
+Meta-Llama-3-8B-Instruct/.cache/
